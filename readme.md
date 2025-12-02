@@ -34,6 +34,15 @@ This one is cursed.
 
 Do not try it.
 
+### Diddy Blud (manual assets required)
+
+Add the following files yourself (Git excludes binaries here):
+
+* `diddy_blud_nextbot/materials/npc_diddy_blud/diddy_blud.png` — the main still image for the bot. Convert the provided `images.jfif` into this PNG.
+* `diddy_blud_nextbot/materials/entities/npc_diddy_blud.png` — the spawn/icon image shown in the spawn menu (square PNG recommended).
+* `diddy_blud_nextbot/materials/npc_diddy_blud/diddy_blud_kill/frame_###.png` — sequential PNG frames (`frame_001.png`, `frame_002.png`, ...) extracted from the kill GIF; the bot plays them at 12 FPS during the kill animation.
+* `diddy_blud_nextbot/sound/npc_diddy_blud/diddy_chase_theme.mp3` and `diddy_blud_nextbot/sound/npc_diddy_blud/diddy_kill_theme.mp3` — chase and kill themes (44,100 Hz). See the README in that folder for details.
+
 ## Development
 
 ### Setup
